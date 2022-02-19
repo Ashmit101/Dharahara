@@ -4,7 +4,8 @@
 #include <vector>
 #include <string>
 
-#include "glad/glad.h"
+#include "../externals/glad/include/glad/glad.h"
+
 #include "glm/glm.hpp"
 
 #include "Shader.hpp"

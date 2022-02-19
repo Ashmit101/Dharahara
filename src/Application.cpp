@@ -1,13 +1,13 @@
-#include "Application.hpp"
+#include "../includes/Application.hpp"
 
-#include "glad/glad.h"
+#include "../externals/glad/include/glad/glad.h"
 #include "GLFW/glfw3.h"
 
-#include "INIT.hpp"
-#include "Shader.hpp"
-#include "Texture.hpp"
-#include "Camera.hpp"
-#include "Model.hpp"
+#include "../includes/INIT.hpp"
+#include "../includes/Shader.hpp"
+#include "../includes/Texture.hpp"
+#include "../includes/Camera.hpp"
+#include "../includes/Model.hpp"
 
 //Camera construct
 Camera camera(0.0f, 1.5f, 10.0f);

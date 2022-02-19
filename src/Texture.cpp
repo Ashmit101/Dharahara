@@ -1,9 +1,9 @@
-#include "Texture.hpp"
+#include "../includes/Texture.hpp"
 
 #include <iostream>
 
-#include "glad/glad.h"
-#include "stb_image.h"
+#include "../externals/glad/include/glad/glad.h"
+#include "../externals/stb_image/stb_image.h"
 
 const std::string TEXTURE_FILE_PATH = "../res/textures/";
 

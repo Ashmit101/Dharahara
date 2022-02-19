@@ -1,4 +1,4 @@
-#include "Model.hpp"
+#include "../includes/Model.hpp"
 
 void Model::Draw(Shader &shader)
 {
